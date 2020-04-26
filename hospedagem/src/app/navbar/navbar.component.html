@@ -1,32 +1,49 @@
-<div class="container-fluid w-100 d-flex justify-content-center">
-
-    <nav class="navbar navbar-expand-lg navbar-light bg-white ">
-  
-  
-        <!--Botão para resposividade-->
-  
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+<div id="box" class="container">
+    
+  <!-- NAV-->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top">           
+      <a class="navbar-brand" href="http://localhost:4200/home"><img id="logo" src="../../assets/img/Logotipo.png" alt="logo do site"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
-        </button>
-  
-        <!--/Botão para resposividade-->
-      
-        <div class="collapse navbar-collapse " id="conteudoNavbarSuportado">
-  
-          <ul class="navbar-nav ">
-            
-            <li class="nav-item ">
-              <a class="nav-link texto p-3 border-right text-uppercase text-lowercase font-weight-bold" routerLink='/home' > Home<span class="sr-only">(página atual)</span></a>
+      </button>
+
+      <div id="nav" class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+              <li class="nav-item">
+                  <a class="nav-link" href="#">Hotéis</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#">Pacotes</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="contato.html">Resorts</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="sobrenos.html">Carros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="sobrenos.html">Cruzeiros</a>
             </li>
-  
-            <li class="nav-item ">
-              <a class="nav-link texto p-3 text-uppercase text-lowercase font-weight-bold" routerLink='/faleConosco'>Fale Conosco</a>
-            </li>
-  
+            <li class="nav-item">
+              <a class="nav-link" href="sobrenos.html">Dicas de Viagens</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" [routerLink]="'/contato'">Contato</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="sobrenos.html">Quem Somos</a>
+      </li>
           </ul>
-    
-    
-          
-        </div>
-      </nav>
-  </div>
+          <form class="form-inline">
+              <a href="formulario.html"><button class="btn btn-sm btn-outline-dark " type="button">Cadastro</button></a>
+              <button class="btn btn-sm btn-outline-dark" type="button" style="margin-left:5px;">Login</button>
+          </form>
+          <!-- <form class="form-inline my-2 my-lg-0">
+                  <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+              </form> -->
+      </div>
+  </nav>
+</div>
+  <!-- FIM DO NAV -->

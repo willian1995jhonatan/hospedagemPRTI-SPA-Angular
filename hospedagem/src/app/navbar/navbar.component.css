@@ -1,0 +1,14 @@
+#nav{
+    width: 100%;	
+	height: auto;
+	background-color: #2B5CFF;
+	padding-top: 20px;
+	margin-top: 40px;
+	position: flex;
+    bottom: 0;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-shadow: black;
+    font-weight: bold;
+    font: Helvetica;
+}

@@ -1,14 +1,16 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { HomeComponent } from './home/home.component';
-import { FeedComponent } from './feed/feed.component';
+import { FeedComponent} from './contato/Feed.component';
+  import { from } from 'rxjs';
 
 
 const routes: Routes = [
 
   { path: '', redirectTo: 'home', pathMatch: 'full'},
-  { path: 'home', component: HomeComponent},
-  { path: 'faleConosco', component: FeedComponent}
+  { path: 'contato', component: FeedComponent},
+  { path: 'home', component: HomeComponent}
+  
 ];
 
 @NgModule({

@@ -1,28 +1,52 @@
-ul.social-network {
-    list-style: none;
-    display: inline;
-  
-    padding: 0;
-  }
-  
-  ul.social-network li {
-    display: inline;
-    margin: 0;
-    padding: 5px;
-  }
- 
- .faFacebook, .faLinkedin, .faInstagram{
-      color: white;
-  }
- 
- .faFacebook:hover{
-    color: blue;
- }
- 
- .faLinkedin:hover{
-  color: #0072b1;
- }
- 
- .faInstagram:hover{
-  color: #C13584;
- }
+/* INICIO FOOTER GERAL */
+
+footer{
+	width: 100%;	
+	height: auto;
+	background-color: #2B5CFF;
+	padding-top: 20px;
+	margin-top: 40px;
+	position: flex;
+    bottom: 0;
+	font-size: 14px;
+    text-transform: uppercase;
+    text-shadow: black;
+    font-weight: bold;
+    font: Helvetica;
+}
+
+i{
+	background-color: #2B5CFF;
+    padding-left: 8px;
+    font: Helvetica;
+}
+
+.footer-copyright{
+	background-color: #2B5CFF;
+    font-size: 14px;
+    font: Helvetica;
+}
+
+footer ul {
+	padding:0px;
+    margin:0px;
+    list-style:none;
+    font: Helvetica;
+    font-size: 14px;
+    
+    
+	
+}
+
+footer ul li {
+	padding-left:10px ;
+	display: inline;
+    color: #000000; 
+    font: Helvetica;
+    font-size: 14px;
+}
+#face{
+    color: black;
+    font: Helvetica;
+    
+}
