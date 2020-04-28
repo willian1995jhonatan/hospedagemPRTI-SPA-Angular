@@ -284,7 +284,9 @@ footer ul li {
 .campos_contato {
     display: flex;
     width: 100%;
-    margin-bottom: 15px;
+	margin-bottom: 15px;
+	
+	
 }
 .icone_contato {
     padding: 15px;
@@ -306,7 +308,8 @@ footer ul li {
 .formulario{
     float: left;
     width: 30%;
-    margin-left: 10%;
+	margin-left: 10%;
+	
 }
 .caixa_mensagem{
     border: 2px solid rgb(169, 169, 169);;
@@ -335,12 +338,14 @@ footer ul li {
 #img_contato {
     width: 450px;
     height: 350px;
-    padding-top: 25px;
+	padding-top: 25px;
+	
 }
 
 @media(max-width: 700px){
 	#img_contato {
 		display: none;
+		
 	}
 }
 /* ---------FIM DA PAGINA CONTATO------------- */

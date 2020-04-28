@@ -8,6 +8,13 @@ import { FeedComponent } from './contato/Feed.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { PacotesComponent } from './pacotes/pacotes.component';
+import { ResortsComponent } from './resorts/resorts.component';
+import { CarrosComponent } from './carros/carros.component';
+import { CruzeirosComponent } from './cruzeiros/cruzeiros.component';
+import { HoteisComponent } from './hoteis/hoteis.component';
+import { QuemSomosComponent } from './quem-somos/quem-somos.component';
+import { DicasComponent } from './dicas/dicas.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +22,14 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     HomeComponent,
     FeedComponent,
     NavbarComponent,
-    FooterComponent
+    FooterComponent,
+    PacotesComponent,
+    ResortsComponent,
+    CarrosComponent,
+    CruzeirosComponent,
+    HoteisComponent,
+    QuemSomosComponent,
+    DicasComponent
   ],
   imports: [
     BrowserModule,
