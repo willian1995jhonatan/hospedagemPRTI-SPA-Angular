@@ -1,0 +1,30 @@
+#imagemCima{
+    margin-top: 80px;
+    border-radius: 1px;
+    height: 300px;
+    
+}
+
+#listaDicas1{
+    margin-top: 80px;
+    font-family: Helvetica;
+    
+}
+
+#titulo{
+    margin-top: 220px;
+    text-align: center;
+    font-family: Helvetica;
+}
+#listaDicas2{
+    margin-top: 50px;
+    font-family: Helvetica;
+}
+#titulo1{
+    background-color: #2B5CFF;
+    font-family: Helvetica;
+}
+#titulo2{
+    background-color: #2B5CFF;
+    font-family: Helvetica;
+}
