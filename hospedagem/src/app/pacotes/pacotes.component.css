@@ -1,0 +1,119 @@
+
+
+#containerPacotesDestaque{
+    width: 100%;
+    padding-top: 15px;
+    margin-bottom: 10px;
+    color: black;
+    text-align: center;
+    border-radius: 10px;
+    font-family: Helvetica;
+}
+
+
+
+#alinhacardsofertas {
+    
+    margin-top: 2%;
+    justify-content: center;
+}
+#alinhacardsadicionados {
+    margin-top: 2%;
+    justify-content: center;
+}
+#alinhacategoria {
+    margin-top: 1%;
+    margin-left: 2px;
+}
+
+ 
+#tituloadicionados {
+    color: black;
+    padding: 4px;
+    background: #2B5CFF;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    font-family: Helvetica;
+}
+#titulocategoria {
+    color: black;
+    padding: 4px;
+    background: #2B5CFF;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    font-family: Helvetica;
+}
+
+
+.botaocomprar {
+    background-color: #2B5CFF;
+    margin-left: 33%;
+    font-family: Helvetica;
+    border-color: #2B5CFF;
+}
+.de {
+    color: gray;
+    text-align: center;
+    font-family: Helvetica;
+}
+.por {
+    color: #2B5CFF;
+    text-align: center;
+    padding-top: 1%;
+    font-family: Helvetica;
+}
+.preco{
+    color: #2B5CFF;
+    text-align: center;
+    font-family: Helvetica;   
+}
+.nomeproduto{
+    color: black;
+    text-align: center;
+    font-family: Helvetica;
+}
+
+
+#botaocategoriafruta{
+    margin-left: 38%;
+    font-family: Helvetica;
+}
+#botaocategoriaverdura{
+    margin-left: 35%;
+    font-family: Helvetica;
+}
+#botaocategorialegume{
+    margin-left: 35%;
+    font-family: Helvetica;   
+}
+
+
+#carrossel1 {
+    font-family: Helvetica;
+    text-shadow: 0.1em 0.1em black;
+}
+#subtitulo1{
+    text-shadow: 0.1em 0.1em black;
+    padding-bottom: 4%;
+}
+#carrossel2 {
+    font-family: Helvetica;
+    text-shadow: 0.1em 0.1em black;
+}
+#subtitulo2{
+    text-shadow: 0.1em 0.1em black;
+    padding-bottom: 4%;
+}
+#carrossel3 {
+    font-family: Helvetica;
+    text-shadow: 0.1em 0.1em black;
+}
+#subtitulo3 {
+    text-shadow: 0.1em 0.1em black;
+    padding-bottom: 4%;
+}
+.h {
+    height: 450px;
+}

@@ -11,38 +11,39 @@
       <div id="nav" class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
               <li class="nav-item">
-                  <a class="nav-link" href="#">Hotéis</a>
+                  <a class="nav-link" href="http://localhost:4200/hoteis">Hotéis</a>
               </li>
               <li class="nav-item">
-                  <a class="nav-link" href="#">Pacotes</a>
+                  <a class="nav-link" href="http://localhost:4200/pacotes">Pacotes</a>
               </li>
               <li class="nav-item">
-                  <a class="nav-link" href="contato.html">Resorts</a>
+                  <a class="nav-link" href="http://localhost:4200/resorts">Resorts</a>
               </li>
               <li class="nav-item">
-                  <a class="nav-link" href="sobrenos.html">Carros</a>
+                  <a class="nav-link" href="http://localhost:4200/carros">Carros</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="sobrenos.html">Cruzeiros</a>
+                <a class="nav-link" href="http://localhost:4200/cruzeiros">Cruzeiros</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="sobrenos.html">Dicas de Viagens</a>
+              <a class="nav-link" href="http://localhost:4200/dicas">Dicas de Viagens</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" [routerLink]="'/contato'">Contato</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="sobrenos.html">Quem Somos</a>
+          <a class="nav-link" href="http://localhost:4200/quem-somos">Quem Somos</a>
       </li>
           </ul>
-          <form class="form-inline">
-              <a href="formulario.html"><button class="btn btn-sm btn-outline-dark " type="button">Cadastro</button></a>
+          <form id="login" class="form-inline">
+              <a href="formulario.html"><button class="btn btn-sm btn-outline-dark " type="button">Cadastrar</button></a>
               <button class="btn btn-sm btn-outline-dark" type="button" style="margin-left:5px;">Login</button>
           </form>
-          <!-- <form class="form-inline my-2 my-lg-0">
-                  <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                  <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-              </form> -->
+          
+          <form  id="pesquisa" class="form-inline my-2 my-lg-0">
+                  <input  class="form-control mr-sm-2" type="search" placeholder="Pesquisar"aria-label="Search">
+                  <button class="btn my-2 btn-dark bg-dark" type="submit">Pesquisar</button>
+              </form>
       </div>
   </nav>
 </div>

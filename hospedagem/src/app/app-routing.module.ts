@@ -7,6 +7,8 @@ import { CarrosComponent} from './carros/carros.component';
 import { CruzeirosComponent} from './cruzeiros/cruzeiros.component';
 import { DicasComponent} from './dicas/dicas.component';
 import { HoteisComponent} from './hoteis/hoteis.component';
+import { ResortsComponent} from './resorts/resorts.component';
+import { QuemSomosComponent} from './quem-somos/quem-somos.component';
 
   import { from } from 'rxjs';
 
@@ -21,6 +23,8 @@ const routes: Routes = [
   { path: 'cruzeiros', component: CruzeirosComponent},
   { path: 'dicas', component: DicasComponent},
   { path: 'hoteis', component: HoteisComponent},
+  { path: 'resorts', component: ResortsComponent},
+  { path: 'quem-somos', component: QuemSomosComponent},
   
 ];
 

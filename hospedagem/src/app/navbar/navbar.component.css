@@ -6,9 +6,26 @@
 	margin-top: 40px;
 	position: flex;
     bottom: 0;
-    font-size: 14px;
+    font-size: 10px;
     text-transform: uppercase;
     text-shadow: black;
     font-weight: bold;
-    font: Helvetica;
+    font-family: Helvetica;
+}
+.navbar ul li {
+	display: inline-block;
+    color: black;
+    
+}
+#pesquisa{
+    width: 310px;
+    
+    text-shadow: black;
+
+    font-family: Helvetica;
+}
+
+#login{
+    margin-right: 28px;
+    
 }
