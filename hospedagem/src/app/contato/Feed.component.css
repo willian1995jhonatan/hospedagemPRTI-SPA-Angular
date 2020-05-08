@@ -1,0 +1,38 @@
+#titulo{
+    text-align: center;
+    font-family: Helvetica;
+    color: #000000;
+    padding-top: 120px;
+}
+#subtitulo {
+    padding-top: 10px;
+    color: #000000;
+    font-family: Helvetica;
+}
+.dados {
+    color: #000000;
+    font-family: Helvetica;
+}
+
+#formContato
+{
+    padding-top: 4%;
+    padding-left: 11.3%;
+    padding-right: 12%;
+}
+
+#faleConosco 
+{
+    text-align: center;
+    font-family: Helvetica;
+} 
+
+
+h2{
+    padding-top: 2%;
+} 
+
+#btnEnviarContato{
+    background-color: #000000;
+    border-color: black;
+}

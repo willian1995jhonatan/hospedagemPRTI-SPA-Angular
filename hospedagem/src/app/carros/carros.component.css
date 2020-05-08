@@ -52,9 +52,15 @@
 }
 
 #container2{
-    margin-top: 40px;
+    margin-top: 190px;
 
 }
+
+#container3{
+    margin-top: 90px;
+
+}
+
 #containerPacotesDestaque{
     width: 100%;
     padding-top: 15px;
@@ -65,7 +71,21 @@
     font-family: Helvetica;
 }
 
+#fiatStilo{
+    height: 220px;
+}
 
+#fiat500{
+    height: 220px;
+}
+
+#pajero{
+    height: 220px;
+}
+
+#camaro{
+    height: 220px;
+}
 
 #alinhacardsofertas {
     
