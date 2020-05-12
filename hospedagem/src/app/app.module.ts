@@ -15,6 +15,7 @@ import { CruzeirosComponent } from './cruzeiros/cruzeiros.component';
 import { HoteisComponent } from './hoteis/hoteis.component';
 import { QuemSomosComponent } from './quem-somos/quem-somos.component';
 import { DicasComponent } from './dicas/dicas.component';
+import { CadastroComponent } from './cadastro/cadastro.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { DicasComponent } from './dicas/dicas.component';
     CruzeirosComponent,
     HoteisComponent,
     QuemSomosComponent,
-    DicasComponent
+    DicasComponent,
+    CadastroComponent
   ],
   imports: [
     BrowserModule,

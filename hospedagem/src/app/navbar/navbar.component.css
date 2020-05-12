@@ -12,6 +12,9 @@
     font-weight: bold;
     font-family: Helvetica;
 }
+.btn-success{
+    background-color: #2B5CFF;
+ }
 .navbar ul li {
 	display: inline-block;
     color: black;

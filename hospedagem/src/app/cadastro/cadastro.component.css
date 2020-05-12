@@ -1,0 +1,30 @@
+#titulo{
+    text-align: center;
+    font-family: 'Titillium Web', sans-serif;
+    color: black;
+}
+.teste{
+    margin-bottom: 10%;
+}
+.btn-success{
+    background-color: #2B5CFF;
+ }
+.aux{
+    text-align: center;
+    color: black;
+} 
+
+.dados {
+    color: black;
+}
+
+ 
+h2{
+    padding-top: 2%;
+} 
+
+#formCadastro{
+    padding-top: 1%;
+    padding-left: 11.3%;
+    padding-right: 12%;
+}

@@ -11,11 +11,13 @@ import { ResortsComponent} from './resorts/resorts.component';
 import { QuemSomosComponent} from './quem-somos/quem-somos.component';
 
   import { from } from 'rxjs';
+import { CadastroComponent } from './cadastro/cadastro.component';
 
 
 const routes: Routes = [
 
   { path: '', redirectTo: 'home', pathMatch: 'full'},
+  {path:'cadastro', component: CadastroComponent},
   { path: 'contato', component: FeedComponent},
   { path: 'home', component: HomeComponent},
   { path: 'pacotes', component: PacotesComponent},
